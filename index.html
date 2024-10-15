@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мой сайт с шрифтами</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Подключаем внешний CSS-файл -->
+    <style>
+        @font-face {
+            font-family: 'CustomFont1'; 
+            src: url('https://kallemuck.github.io/my-font/font1.woff2') format('woff2');
+        }
+        
+        @font-face {
+            font-family: 'CustomFont2'; 
+            src: url('https://kallemuck.github.io/my-font/font2.woff2') format('woff2');
+        }
+        
+        body {
+            font-family: 'CustomFont1', sans-serif; /* Применяем пользовательский шрифт */
+            background-color: #f4f4f4; /* Цвет фона страницы */
+            color: #333; /* Цвет текста */
+            margin: 0;
+            padding: 20px;
+            font-size: 16px; /* Размер шрифта */
+        }
+        
+        h1 {
+            font-family: 'CustomFont2', sans-serif; /* Применяем другой шрифт для заголовков */
+            font-size: 2em; /* Размер заголовка */
+        }
+    </style>
+</head>
+<body>
+    <h1>Добро пожаловать на мой сайт!</h1>
+    <p>Это пример страницы, использующей пользовательские шрифты.</p>
+    <p>Вы можете изменить текст и стили по своему усмотрению.</p>
+</body>
+</html>
